@@ -1,0 +1,6 @@
+@Yemekpos.Enterprise.API_HostAddress = http://localhost:5198
+
+GET {{Yemekpos.Enterprise.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
