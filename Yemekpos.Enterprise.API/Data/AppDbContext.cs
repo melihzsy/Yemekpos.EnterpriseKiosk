@@ -18,6 +18,7 @@ namespace Yemekpos.Enterprise.API.Data
         public DbSet<ModifierGroup> ModifierGroups { get; set; }
         public DbSet<Modifier> Modifiers { get; set; }
         public DbSet<ProductModifierGroup> ProductModifierGroups { get; set; }
+        public DbSet<StockMovement> StockMovements { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

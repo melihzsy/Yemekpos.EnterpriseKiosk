@@ -17,6 +17,7 @@ namespace Yemekpos.Enterprise.API.Models
         public decimal Price { get; set; }
         public string ImageUrl { get; set; } = string.Empty;
         public bool IsActive { get; set; } = true;
+        public int StockBalance { get; set; } = 0; // Varsayılan stok 0
         // Mevcut özelliklerin altına bunu ekliyoruz
 public ICollection<ProductModifierGroup> ProductModifierGroups { get; set; } = new List<ProductModifierGroup>();
     }
